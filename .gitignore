@@ -1,2 +1,30 @@
-/.env
-node_modules/
+# Node dependencies
+**/node_modules/
+
+# Logs
+logs
+*.log
+
+# Build files
+dist/
+build/
+
+# OS-specific
+.DS_Store
+
+# Environment files
+.env
+.env.* 
+
+# npm / yarn / pnpm
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Editor folders
+.vscode/
+.idea/
+
+# Coverage and test
+coverage/
+jest-coverage/
